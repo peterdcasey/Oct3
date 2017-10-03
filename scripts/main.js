@@ -4,6 +4,11 @@
     10/3/17
 */
 
+// Convience function to get HTML element
+function getE(id) {
+    return document.getElementById(id);
+}
+
 // Simple function to test our setup
 function test() {
     alert("hello world");
