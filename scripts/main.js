@@ -9,9 +9,13 @@ function getE(id) {
     return document.getElementById(id);
 }
 
+function getEleText(id) {
+    return document.getElementById(id).value;
+}
+
 // Simple function to test our setup
 function test() {
-    alert("hello world");
+    alert("Testing getEleText(): " + getEleText("stuff"));
 }
 
 function readText() {
